@@ -21,6 +21,7 @@
   </head>
 
   <body>
+    <div class="hero-image"></div>
     <header class="header-page">
       <div class="container">
         <!-- (nav>a+ul>li*3>a)+ul>li*3>a -->
@@ -67,29 +68,46 @@
       </div>
     </header>
     <main>
-      <section>
-        <h1>Explore the High Seas with Our Luxury Yacht Rentals</h1>
-        <p>
-          Experience the freedom and luxury of yachting on the open seas. Choose
-          from our top-of-the-line yachts and embark on an unforgettable journey
-          surrounded by breathtaking views and state-of-the-art amenities.
-        </p>
-        <button type="button">Yacht rental</button>
+      <section class="hero">
+        <div class="container">
+          <h1>Explore the High Seas with Our Luxury Yacht Rentals</h1>
+          <p class="hero-text">
+            Experience the freedom and luxury of yachting on the open seas.
+            Choose from our top-of-the-line yachts and embark on an
+            unforgettable journey surrounded by breathtaking views and
+            state-of-the-art amenities.
+          </p>
+          <button class="hero-button" type="button">Yacht rental</button>
+        </div>
       </section>
-      <section>
-        <h2>YachtJet fleet is here to take you on the ultimate adventure</h2>
-        <h3>
-          From spacious decks to state-of-the-art technology, our yachts are
-          designed to provide the perfect blend of luxury and functionality.
-        </h3>
-        <p>
-          Take a look at our selection below and choose the yacht that matches
-          your needs and preferences.No matter which yacht you choose, our
-          experienced crew will ensure that your journey is smooth and
-          enjoyable. Book now and get ready for an unforgettable adventure on
-          the high seas.
-        </p>
-        <img src="./images/yaht-center.png" alt="yacht" width="1340" />
+      <section class="fleet">
+        <div class="container">
+          <div class="fleet-description">
+            <h2 class="fleet-title">
+              YachtJet fleet is here to take you on the ultimate adventure
+            </h2>
+            <div class="fleet-proposition">
+              <h3 class="fleet-title-second">
+                From spacious decks to state-of-the-art technology, our yachts
+                are designed to provide the perfect blend of luxury and
+                functionality.
+              </h3>
+              <p class="fleet-text">
+                Take a look at our selection below and choose the yacht that
+                matches your needs and preferences.No matter which yacht you
+                choose, our experienced crew will ensure that your journey is
+                smooth and enjoyable. Book now and get ready for an
+                unforgettable adventure on the high seas.
+              </p>
+            </div>
+          </div>
+          <img
+            class="fleet-photo"
+            src="./images/yaht-center.png"
+            alt="yacht"
+            width="1340"
+          />
+        </div>
       </section>
       <section>
         <h2>Choose your dream yacht and sail away into the sunset</h2>
@@ -198,6 +216,36 @@
         <img src="./images/rent.jpg" alt="rent yacht" width="768" />
         <h2>Rent a yacht now</h2>
         <button type="button">Send</button>
+        <form class="form-yaht">
+          <label>
+            <input
+              class="input-forma"
+              type="text"
+              name="name"
+              placeholder="Full Name"
+            />
+          </label>
+          <label>
+            <input
+              class="input-forma"
+              type="email"
+              name="email"
+              placeholder="Email"
+            />
+          </label>
+          <label>
+            <input
+              class="input-forma"
+              type="tel"
+              name="tel"
+              placeholder="Phone number"
+            />
+          </label>
+          <label>
+            <textarea class="textarea-form" name="comment" placeholder="Comment"
+          </label>
+          <button type="submit" class=""></button>
+        </form>
       </section>
       <section>
         <h2>
