@@ -84,7 +84,6 @@ img {
   height: 24px;
 }
 .social-link {
-  background-color: #1b414b;
   color: #fbfbfb;
   width: 100%;
   height: 100%;
@@ -92,10 +91,15 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #fbfbfb;
 }
 .social-list-item {
   width: 24px;
   height: 24px;
+}
+
+.social-icons {
+  fill: #1b414b;
 }
 
 .hero {
@@ -144,7 +148,7 @@ h1 {
 .hero-image {
   background-image: url(../images/image-background.jpg);
   background-size: cover;
-  width: 1440px;
+  width: 100%;
   height: 800px;
   position: absolute;
   top: 0;
@@ -340,4 +344,64 @@ h1 {
   display: block;
   margin: 0 auto;
   background-color: transparent;
+}
+
+.form-yacht {
+  width: 472px;
+}
+
+.input-forma {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  padding: 18px;
+  width: 100%;
+  height: 54px;
+  font-weight: 400;
+  font-size: 14px;
+
+  /* line-height: 18px; */
+  line-height: 1.28;
+  color: rgba(251, 251, 251, 0.4);
+  background-color: transparent;
+}
+
+.label-form {
+  display: block;
+  margin-bottom: 18px;
+}
+
+.label-textarea {
+  display: block;
+  margin-bottom: 50px;
+}
+.textarea-form {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  padding: 18px;
+  width: 100%;
+  height: 116px;
+  font-weight: 400;
+  font-size: 14px;
+
+  /* line-height: 18px; */
+  line-height: 1.28;
+  color: rgba(251, 251, 251, 0.4);
+  background-color: transparent;
+  resize: none;
+  overflow: hidden;
+}
+
+.button-form {
+  border-radius: 15px;
+  padding: 18px 75px;
+  width: 194px;
+  height: 56px;
+  background-color: #1b414b;
+  font-weight: 500;
+  font-size: 18px;
+
+  /* line-height: 20px; */
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
 }
