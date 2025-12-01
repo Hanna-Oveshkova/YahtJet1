@@ -21,6 +21,7 @@
   </head>
 
   <body>
+    <div class="hero-image"></div>
     <header class="header-page">
       <div class="container">
         <!-- (nav>a+ul>li*3>a)+ul>li*3>a -->
@@ -44,139 +45,188 @@
               class="social-link"
               href="https://www.instagram.com/"
               target="_blank"
-              >instagram</a
             >
+              <svg class="social-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
           </li>
           <li class="header-social-list-item">
             <a
               class="social-link"
               href="https://www.youtube.com/"
               target="_blank"
-              >youtube</a
             >
+              <svg class="social-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-youtube"></use>
+              </svg>
+            </a>
           </li>
           <li class="header-social-list-item">
             <a
               class="social-link"
               href=" https://www.facebook.com/"
               target="_blank"
-              >facebook</a
             >
+              <svg class="social-icons" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
           </li>
         </ul>
       </div>
     </header>
     <main>
-      <section>
-        <h1>Explore the High Seas with Our Luxury Yacht Rentals</h1>
-        <p>
-          Experience the freedom and luxury of yachting on the open seas. Choose
-          from our top-of-the-line yachts and embark on an unforgettable journey
-          surrounded by breathtaking views and state-of-the-art amenities.
-        </p>
-        <button type="button">Yacht rental</button>
+      <section class="hero">
+        <div class="container">
+          <h1>Explore the High Seas with Our Luxury Yacht Rentals</h1>
+          <p class="hero-text">
+            Experience the freedom and luxury of yachting on the open seas.
+            Choose from our top-of-the-line yachts and embark on an
+            unforgettable journey surrounded by breathtaking views and
+            state-of-the-art amenities.
+          </p>
+          <button class="hero-button" type="button">Yacht rental</button>
+        </div>
       </section>
-      <section>
-        <h2>YachtJet fleet is here to take you on the ultimate adventure</h2>
-        <h3>
-          From spacious decks to state-of-the-art technology, our yachts are
-          designed to provide the perfect blend of luxury and functionality.
-        </h3>
-        <p>
-          Take a look at our selection below and choose the yacht that matches
-          your needs and preferences.No matter which yacht you choose, our
-          experienced crew will ensure that your journey is smooth and
-          enjoyable. Book now and get ready for an unforgettable adventure on
-          the high seas.
-        </p>
-        <img src="./images/yaht-center.png" alt="yacht" width="1340" />
+      <section class="fleet">
+        <div class="container">
+          <div class="fleet-description">
+            <h2 class="fleet-title">
+              YachtJet fleet is here to take you on the ultimate adventure
+            </h2>
+            <div class="fleet-proposition">
+              <h3 class="fleet-title-second">
+                From spacious decks to state-of-the-art technology, our yachts
+                are designed to provide the perfect blend of luxury and
+                functionality.
+              </h3>
+              <p class="fleet-text">
+                Take a look at our selection below and choose the yacht that
+                matches your needs and preferences.No matter which yacht you
+                choose, our experienced crew will ensure that your journey is
+                smooth and enjoyable. Book now and get ready for an
+                unforgettable adventure on the high seas.
+              </p>
+            </div>
+          </div>
+          <img
+            class="fleet-photo"
+            src="./images/yaht-center.png"
+            alt="yacht"
+            width="1340"
+          />
+        </div>
       </section>
-      <section>
-        <h2>Choose your dream yacht and sail away into the sunset</h2>
-        <ul>
-          <li>
-            <img src="./images/arrow.png" alt="arrow" width="360" />
-            <h3>Arrow</h3>
-            <p>luxury yachts</p>
+      <section class="choice">
+        <h2 class="choice-title">
+          Choose your dream yacht and sail away into the sunset
+        </h2>
+        <ul class="choice-list">
+          <li class="choice-item">
+            <img
+              src="./images/arrow.png"
+              alt="arrow"
+              class="choice-img"
+              width="360"
+            />
+            <div class="name-yacht">
+              <h3 class="name-yacht-list">Arrow</h3>
+              <p class="name-yacht-text">luxury yachts</p>
+            </div>
             <ul>
-              <li>
-                <p>lenght</p>
-                <p>48m(155ft)</p>
+              <li class="name-resuit">
+                <p class="name-position">lenght</p>
+                <p class="result-position">48m(155ft)</p>
               </li>
-              <li>
-                <p>builder</p>
-                <p>Admiral</p>
+              <li class="name-resuit">
+                <p class="name-position">builder</p>
+                <p class="result-position">Admiral</p>
               </li>
-              <li>
-                <p>built</p>
-                <p>2021</p>
+              <li class="name-resuit">
+                <p class="name-position">built</p>
+                <p class="result-position">2021</p>
               </li>
-              <li>
-                <p>guests</p>
-                <p>11 in 5 cabins</p>
+              <li class="name-resuit">
+                <p class="name-position">guests</p>
+                <p class="result-position">11 in 5 cabins</p>
               </li>
-              <li>
-                <p>price</p>
-                <p>€33,500,000</p>
+              <li class="name-resuit">
+                <p class="name-position">price</p>
+                <p class="result-position">€33,500,000</p>
               </li>
             </ul>
           </li>
-          <li>
-            <img src="./images/benetti.png" alt="benetti" width="360" />
-            <h3>BENETTI OASIS 40M BO122</h3>
-            <p>LUXURY YAHTS</p>
+          <li class="choice-item">
+            <img
+              src="./images/benetti.png"
+              alt="benetti"
+              class="choice-img"
+              width="360"
+            />
+            <div class="name-yacht">
+              <h3 class="name-yacht-list">BENETTI OASIS 40M BO122</h3>
+              <p class="name-yacht-text">LUXURY YAHTS</p>
+            </div>
             <ul>
-              <li>
-                <p>lenght</p>
-                <p>41m (133ft)</p>
+              <li class="name-resuit">
+                <p class="name-position">lenght</p>
+                <p class="result-position">41m (133ft)</p>
               </li>
-              <li>
-                <p>shipyard</p>
-                <p>Benetti</p>
+              <li class="name-resuit">
+                <p class="name-position">shipyard</p>
+                <p class="result-position">Benetti</p>
               </li>
-              <li>
-                <p>built</p>
-                <p>2025</p>
+              <li class="name-resuit">
+                <p class="name-position">built</p>
+                <p class="result-position">2025</p>
               </li>
-              <li>
-                <p>guests</p>
-                <p>10 in 5 cabins</p>
+              <li class="name-resuit">
+                <p class="name-position">guests</p>
+                <p class="result-position">10 in 5 cabins</p>
               </li>
-              <li>
-                <p>price</p>
-                <p>€23,210,000</p>
+              <li class="name-resuit">
+                <p class="name-position">price</p>
+                <p class="result-position">€23,210,000</p>
               </li>
             </ul>
           </li>
-          <li>
-            <img src="./images/belle.png" alt="belle" width="360" />
-            <h3>BELLE ANNA</h3>
-            <p>LUXURY YAHTS</p>
+          <li class="choice-item">
+            <img
+              src="./images/belle.png"
+              alt="belle"
+              class="choice-img"
+              width="360"
+            />
+            <div class="name-yacht">
+              <h3 class="name-yacht-list">BELLE ANNA</h3>
+              <p class="name-yacht-text">LUXURY YAHTS</p>
+            </div>
             <ul>
-              <li>
-                <p>lenght</p>
-                <p>50m(155ft)</p>
+              <li class="name-resuit">
+                <p class="name-position">lenght</p>
+                <p class="result-position">50m(155ft)</p>
               </li>
-              <li>
-                <p>shipyard</p>
-                <p>ISA</p>
+              <li class="name-resuit">
+                <p class="name-position">shipyard</p>
+                <p class="result-position">ISA</p>
               </li>
-              <li>
-                <p>built</p>
-                <p>2012</p>
+              <li class="name-resuit">
+                <p class="name-position">built</p>
+                <p class="result-position">2012</p>
               </li>
-              <li>
-                <p>guests</p>
-                <p>12 in 6 cabins</p>
+              <li class="name-resuit">
+                <p class="name-position">guests</p>
+                <p class="result-position">12 in 6 cabins</p>
               </li>
-              <li>
-                <p>price</p>
-                <p>€21,000,000</p>
+              <li class="name-resuit">
+                <p class="name-position">price</p>
+                <p class="result-position">€21,000,000</p>
               </li>
             </ul>
           </li>
         </ul>
-        <button type="button">Yacht rental</button>
+        <button type="button" class="button-rental">Yacht rental</button>
       </section>
       <section>
         <h2 hidden>entertainment</h2>
@@ -197,7 +247,40 @@
       <section>
         <img src="./images/rent.jpg" alt="rent yacht" width="768" />
         <h2>Rent a yacht now</h2>
-        <button type="button">Send</button>
+        <form class="form-yacht">
+          <label class="label-form">
+            <input
+              class="input-forma"
+              type="text"
+              name="name"
+              placeholder="Full Name"
+            />
+          </label>
+          <label class="label-form">
+            <input
+              class="input-forma"
+              type="email"
+              name="email"
+              placeholder="Email"
+            />
+          </label>
+          <label class="label-form">
+            <input
+              class="input-forma"
+              type="tel"
+              name="tel"
+              placeholder="Phone number"
+            />
+          </label>
+          <label class="label-textarea">
+            <textarea
+              class="textarea-form"
+              name="comment"
+              placeholder="Comment"
+            ></textarea>
+          </label>
+          <button class="button-form" type="submit">Send</button>
+        </form>
       </section>
       <section>
         <h2>

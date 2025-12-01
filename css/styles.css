@@ -35,8 +35,8 @@ img {
   background-color: #fbfbfb;
   border-radius: 8px;
   border: 1px solid #fbfbfb;
-  margin: 0 auto;
-  padding: 4 30px;
+  margin: 32px auto 0;
+  padding: 4px 30px;
 }
 .header-page .container {
   display: flex;
@@ -70,17 +70,20 @@ img {
   text-align: center;
   color: #fbfbfb;
 }
+.nav-list-link:hover,
+.nav-list-link:focus {
+  background-color: #1b414b;
+}
 .header-page-social-list {
   display: flex;
   gap: 10px;
-  margin: auto;
+  margin-left: auto;
 }
 .header-social-list-item {
   width: 24px;
   height: 24px;
 }
 .social-link {
-  background-color: #1b414b;
   color: #fbfbfb;
   width: 100%;
   height: 100%;
@@ -88,8 +91,317 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #fbfbfb;
 }
 .social-list-item {
   width: 24px;
   height: 24px;
+}
+
+.social-icons {
+  fill: #1b414b;
+}
+
+.hero {
+  padding-top: 155px;
+  padding-bottom: 180px;
+  max-width: 1001px;
+  margin: 0 auto;
+}
+h1 {
+  font-weight: 500;
+  font-size: 80px;
+
+  /* line-height: 80px; */
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  margin-bottom: 24px;
+}
+.hero-text {
+  font-weight: 300;
+  font-size: 16px;
+
+  /* line-height: 22px; */
+  line-height: 1.4;
+  text-align: center;
+  color: rgba(251, 251, 251, 0.7);
+  margin: 0 202px;
+}
+.hero-button {
+  font-weight: 500;
+  font-size: 18px;
+
+  /* line-height: 20px; */
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  border-radius: 15px;
+  padding: 16px 40px;
+  background-color: #1b414b;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-top: 48px;
+}
+.hero-image {
+  background-image: url(../images/image-background.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.fleet {
+  border-radius: 24px;
+  max-width: 1340px;
+  height: 675px;
+  background-color: #fbfbfb;
+  margin: 0 auto;
+  margin-bottom: 282px;
+}
+.fleet .container {
+  display: block;
+}
+.fleet-description {
+  display: flex;
+}
+.fleet-title {
+  font-weight: 500;
+  font-size: 48px;
+
+  /* line-height: 48px; */
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+  margin: 0 auto;
+  margin-left: 50px;
+  padding-top: 50px;
+  max-width: 537px;
+  background-color: #fbfbfb;
+}
+.fleet-proposition {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  max-width: 404px;
+  background-color: #fbfbfb;
+}
+.fleet-title-second {
+  font-weight: 400;
+  font-size: 23px;
+
+  /* line-height: 23px; */
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #1b414b;
+  margin-bottom: 20px;
+}
+.fleet-text {
+  font-weight: 400;
+  font-size: 13px;
+
+  /* line-height: 15px; */
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: #040306;
+  background-color: #fff;
+}
+.fleet-photo {
+  border-radius: 0 24px 0 0;
+  width: 100%;
+  height: 470px;
+  margin-bottom: 100px;
+}
+
+.choice {
+  max-width: 1240px;
+  height: 508px;
+  margin: 0 auto;
+}
+
+.choice-title {
+  font-weight: 500;
+  font-size: 48px;
+
+  /* line-height: 48px; */
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+  max-width: 714px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 75px;
+}
+
+.choice-list {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 50px;
+}
+
+.choice-item {
+  border-radius: 24px;
+  width: 392px;
+  height: 508px;
+  background-color: #fff;
+  box-shadow: 0px 1px 6px rgba(255, 255, 255, 1),
+    0px 1px 1px rgba(255, 255, 255, 1), 0px 2px 1px;
+}
+
+.choice-img {
+  border: 1px solid #000;
+  border-radius: 24px;
+  width: 360px;
+  height: 268px;
+  margin: 16px;
+  margin-bottom: 32px;
+}
+
+.name-yacht {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 32px;
+}
+
+.name-yacht-list {
+  font-weight: 500;
+  font-size: 16px;
+
+  /* line-height: 19px; */
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #1b414b;
+  margin-bottom: 32px;
+}
+
+.name-yacht-text {
+  font-weight: 400;
+  font-size: 13px;
+
+  /* line-height: 15px; */
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #040306;
+}
+
+.name-resuit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 32px;
+}
+
+.name-position {
+  display: flex;
+
+  font-weight: 400;
+  font-size: 14px;
+
+  /* line-height: 17px; */
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #040306;
+  opacity: 0.4;
+  padding-bottom: 6px;
+}
+
+.result-position {
+  display: flex;
+  font-weight: 400;
+  font-size: 14px;
+
+  /* line-height: 17px; */
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #040306;
+}
+
+.button-rental {
+  font-weight: 500;
+  font-size: 18px;
+
+  /* line-height: 20px; */
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.35);
+  border-radius: 15px;
+  padding: 16px 40px;
+  padding: 16px 40px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+.form-yacht {
+  width: 472px;
+}
+
+.input-forma {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  padding: 18px;
+  width: 100%;
+  height: 54px;
+  font-weight: 400;
+  font-size: 14px;
+
+  /* line-height: 18px; */
+  line-height: 1.28;
+  color: rgba(251, 251, 251, 0.4);
+  background-color: transparent;
+}
+
+.label-form {
+  display: block;
+  margin-bottom: 18px;
+}
+
+.label-textarea {
+  display: block;
+  margin-bottom: 50px;
+}
+.textarea-form {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 12px;
+  padding: 18px;
+  width: 100%;
+  height: 116px;
+  font-weight: 400;
+  font-size: 14px;
+
+  /* line-height: 18px; */
+  line-height: 1.28;
+  color: rgba(251, 251, 251, 0.4);
+  background-color: transparent;
+  resize: none;
+  overflow: hidden;
+}
+
+.button-form {
+  border-radius: 15px;
+  padding: 18px 75px;
+  width: 194px;
+  height: 56px;
+  background-color: #1b414b;
+  font-weight: 500;
+  font-size: 18px;
+
+  /* line-height: 20px; */
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
 }
